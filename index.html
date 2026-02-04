@@ -18,8 +18,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Load Lucide Icons for aesthetic components (Added Facebook, Instagram, Linkedin) -->
     <script type="module">
-        import { createIcons, MapPin, CheckCircle, Shield, Wrench, FileText, Facebook, Instagram, Linkedin, Zap, Users, Aperture, MessageSquare, Mail, ArrowDown } from 'https://cdn.skypack.dev/lucide';
-        createIcons({ icons: { MapPin, CheckCircle, Shield, Wrench, FileText, Facebook, Instagram, Linkedin, Zap, Users, Aperture, MessageSquare, Mail, ArrowDown } });
+        import { createIcons, MapPin, CheckCircle, ShieldCheck, Wrench, FileText, Facebook, Instagram, Linkedin, Zap, Users, Aperture, MessageSquare, Mail, ArrowDown, HardHat, Target, Phone } from 'https://cdn.skypack.dev/lucide';
+        createIcons({ icons: { MapPin, CheckCircle, ShieldCheck, Wrench, FileText, Facebook, Instagram, Linkedin, Zap, Users, Aperture, MessageSquare, Mail, ArrowDown, HardHat, Target, Phone } });
     </script>
     <style>
         /* Custom styles for the heavy-duty demolition look */
@@ -153,7 +153,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
 
                 <div class="text-center">
-                    <i data-lucide="zap"
+                    <i data-lucide="shield-check"
                         class="w-12 h-12 text-white bg-orange-600 p-2 rounded-full mx-auto mb-4 shadow-xl"></i>
                     <h4 class="text-xl font-bold mb-2">Licensed & Insured</h4>
                     <p class="text-gray-400 text-sm">Full Class A Asbestos Removal license and comprehensive public
@@ -161,7 +161,7 @@
                 </div>
 
                 <div class="text-center">
-                    <i data-lucide="users"
+                    <i data-lucide="map-pin"
                         class="w-12 h-12 text-white bg-orange-600 p-2 rounded-full mx-auto mb-4 shadow-xl"></i>
                     <h4 class="text-xl font-bold mb-2">Local Sydney Experts</h4>
                     <p class="text-gray-400 text-sm">Deep experience navigating local council approvals and regulations
@@ -169,7 +169,7 @@
                 </div>
 
                 <div class="text-center">
-                    <i data-lucide="check-circle"
+                    <i data-lucide="hard-hat"
                         class="w-12 h-12 text-white bg-orange-600 p-2 rounded-full mx-auto mb-4 shadow-xl"></i>
                     <h4 class="text-xl font-bold mb-2">Safety First Culture</h4>
                     <p class="text-gray-400 text-sm">Rigorous adherence to WHS standards, ensuring every job is executed
@@ -177,7 +177,7 @@
                 </div>
 
                 <div class="text-center">
-                    <i data-lucide="message-square"
+                    <i data-lucide="file-text"
                         class="w-12 h-12 text-white bg-orange-600 p-2 rounded-full mx-auto mb-4 shadow-xl"></i>
                     <h4 class="text-xl font-bold mb-2">Transparent Quoting</h4>
                     <p class="text-gray-400 text-sm">Detailed, fixed-price quotes with no hidden costs, giving you
@@ -495,11 +495,6 @@
         });
     </script>
 
-    <!-- Lucide Icon for hard-hat which is used in the services section -->
-    <script type="module">
-        import { createIcons, HardHat, Target } from 'https://cdn.skypack.dev/lucide';
-        createIcons({ icons: { HardHat, Target } });
-    </script>
 </body>
 
 </html>
