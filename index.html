@@ -16,10 +16,12 @@
 
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Load Lucide Icons for aesthetic components (Added Facebook, Instagram, Linkedin) -->
-    <script type="module">
-        import { createIcons, MapPin, CheckCircle, ShieldCheck, Wrench, FileText, Facebook, Instagram, Linkedin, Zap, Users, Aperture, MessageSquare, Mail, ArrowDown, HardHat, Target, Phone } from 'https://cdn.skypack.dev/lucide';
-        createIcons({ icons: { MapPin, CheckCircle, ShieldCheck, Wrench, FileText, Facebook, Instagram, Linkedin, Zap, Users, Aperture, MessageSquare, Mail, ArrowDown, HardHat, Target, Phone } });
+    <!-- Load Lucide Icons (Robust delivery via UNPKG) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+        });
     </script>
     <style>
         /* Custom styles for the heavy-duty demolition look */
